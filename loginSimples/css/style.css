@@ -1,0 +1,77 @@
+body{
+    background-color: #882f2c;
+    font-family: sans-serif;
+} 
+
+.formulario{
+    width: 450px;
+    margin: auto;
+    padding-top: 140px;
+}
+/*Container */ 
+.card{
+    box-shadow: 1px 1px 5px #f8ebeb;
+    background-color: rgb(224, 224, 224);
+    padding: 50px;
+    border-radius: 5px;
+}
+/* centralização do layout*/ 
+.card-top{
+    text-align: center;
+}
+/* Espaçamento entre email e senha*/ 
+.card-group{
+    margin-bottom: 20px;
+}
+/* Espaçamento do titulo de reconhecimento dos dados*/ 
+.card-group > label{
+    width: 85px;
+    color: #000000;
+    display: block;
+    
+}
+/* entrada (local digitação do user)*/ 
+.card-group > input{
+    border-radius: 5px;
+    outline: 0;
+    width: 300px;
+    height: 20px;
+    padding: 5px
+
+}
+
+/* Botão de acesso*/ 
+.card-group > button{
+    background-image: linear-gradient(to right, #474747, #030000);
+    width: 100%;
+    border-radius: 30px;
+    padding: 15px;
+    color: rgb(238, 238, 238);
+    border: 0px;
+    outline: 0;
+    font-weight: bold
+    
+}
+
+.btn button:hover{
+    background-image: linear-gradient(to right, #8f8f8f, #fa3636);
+}
+
+.imglogin{
+    border-radius: 50px;
+    width: 100px;
+    box-shadow: 0px 0px 10px #000000;
+    
+}
+
+.title{
+    color: #000000;
+}
+body{
+    animation: fadein 5s; /* Padrão */
+    }
+@keyframes fadein {
+    from { opacity: 0.1; }
+    to { opacity: 3; } /* Padrão */
+    }
+       
